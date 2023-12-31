@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+    
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.logo {
+        width: 200px; 
+        height: 200px;
+        display: flex;
+}
+.logo-container{
+    padding: 10px; ;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+a{
+    color: red;
+}
+.hero {
+    text-align: center;
+    padding: 125px;
+    background-image: url('hero-background.jpg');
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+h2{
+    color: red;
+}
+.hero p {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.featured, .recommended {
+    margin: 20px;
+}
